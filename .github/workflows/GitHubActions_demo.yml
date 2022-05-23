@@ -17,5 +17,5 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Execute python script
-      - run: |
+        run: |
           ${{ github.workspace }}/test.py
