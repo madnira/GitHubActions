@@ -1,8 +1,5 @@
 name: Python Script
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
 jobs: 
   Python:
     runs-on: ubuntu-latest
