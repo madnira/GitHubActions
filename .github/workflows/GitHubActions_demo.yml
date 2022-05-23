@@ -19,4 +19,4 @@ on:
           python-version: ${{ matrix.python-version }}
       - name: Execute python script
       - run: |
-          ../test.py
+          ${{ github.workspace }}/test.py
